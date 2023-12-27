@@ -1,0 +1,17 @@
+.html_stretched #wrap_all {
+    background-color: #ffffff;
+}
+
+#wrap_all {
+    width: 100%;
+    position: static;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#header {
+    position: relative;
+    z-index: 501;
+    width: 100%;
+    background: transparent;
+}
