@@ -14,6 +14,23 @@
 
 }
 
+#btnContacto {
+    display: inline-block;
+    padding: 11px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: #60a9bf;
+    color: #ffffff;
+}
+
+#btnContacto:hover {
+    background-color: white;
+    color: #60a9bf;
+}
+
 #header_top>.container {
     height: 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 1);
@@ -21,6 +38,11 @@
 
 #header_main {
     margin-top: 20px;
+}
+
+#sectorElectrico {
+    text-align: center;
+    background-image: url(recursos/imágenes/banner_contacto.jpg);
 }
 
 #header_main .container {
@@ -63,8 +85,14 @@
     color: #ffffff;
 }
 
+#servicios {
+    display: flex;
+}
+
 .servicio {
     text-align: center;
+    margin: 10px;
+    padding: 15px;
 }
 
 .titulo_servicio {
@@ -72,9 +100,14 @@
     font-size: 20px;
 }
 
+p {
+    margin: 0.85em 0;
+}
+
 .texto_servicio {
     font-weight: normal;
     font-size: 16px;
+    color: #6b7280;
 }
 
 div .logo {
@@ -85,9 +118,16 @@ div .logo {
 
 }
 
-#titulo {
+.titulo {
     font-weight: bold;
     font-size: 50px;
+    color: white;
+}
+
+.subtitulo {
+    font-size: 38px;
+    font-weight: normal;
+    color: white;
 }
 
 .container {
