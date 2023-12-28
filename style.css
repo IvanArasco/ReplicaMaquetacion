@@ -9,6 +9,10 @@ html {
     font-family: 'nunito sans', Helvetica, Arial, sans-serif;
 }
 
+#wrap_all>.container {
+    padding: 30px;
+}
+
 #header_top {
     background-image: url("recursos/imágenes/cabecera.jpg");
     overflow: hidden;
@@ -39,10 +43,6 @@ html {
 
 #header_main {
     margin-top: 20px;
-}
-
-#sectorElectrico>div {
-    margin: 30px;
 }
 
 #sectorElectrico {
@@ -171,7 +171,7 @@ p {
 
 
 .container {
-    padding: 0px 50px;
+    padding: 0px 160px;
 }
 
 .letraMedia {
@@ -186,6 +186,7 @@ p {
     padding: 5px 0;
     line-height: 20px;
     color: #ffffff;
+    margin-right: 10%;
 }
 
 #main {
