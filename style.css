@@ -17,7 +17,7 @@
 #btnContacto {
     display: inline-block;
     padding: 11px 20px;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -40,9 +40,15 @@
     margin-top: 20px;
 }
 
+#sectorElectrico>div {
+    margin: 30px;
+}
+
 #sectorElectrico {
+
     text-align: center;
     background-image: url(recursos/imágenes/banner_contacto.jpg);
+    color: white;
 }
 
 #header_main .container {
@@ -89,6 +95,24 @@
     display: flex;
 }
 
+#clientes {
+    display: flex;
+    float: left;
+    width: 100%;
+}
+
+.cliente {
+    margin: 10px;
+    padding: 15px;
+    width: 20%;
+}
+
+#clientes .cliente img {
+    margin: 0 auto;
+    display: block;
+
+}
+
 .servicio {
     text-align: center;
     margin: 10px;
@@ -118,17 +142,41 @@ div .logo {
 
 }
 
-.titulo {
+#tituloEstudiosMontajes {
     font-weight: bold;
     font-size: 50px;
     color: white;
 }
 
-.subtitulo {
+#subtituloEstudiosMontajes {
     font-size: 38px;
     font-weight: normal;
     color: white;
 }
+
+#sectorElectrico h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#sectorElectrico div p {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #60a9bf;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+}
+
 
 .container {
     padding: 0px 50px;
@@ -156,4 +204,40 @@ div .logo {
 .logo svg {
     width: auto;
     height: auto;
+}
+
+.containerNoticia {
+    display: table-cell;
+    padding: 20px;
+    box-shadow: 5px 20px 0 rgb(0 0 0 / 3%), 5px 5px 20px rgb(0 0 0 / 10%);
+}
+
+.containerNoticia * {
+    width: 100%;
+}
+
+.containerNoticia img {
+    border-radius: 15px;
+}
+
+.leerMas {
+    font-weight: bold;
+    font-size: 16px;
+    color: #60a9bf;
+}
+
+#visitaBlog {
+    margin-top: 60px;
+    display: block;
+    text-align: center;
+}
+
+#visitaBlog span {
+    padding: 11px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: #60a9bf solid;
+    background-color: white;
+    color: #60a9bf;
 }
