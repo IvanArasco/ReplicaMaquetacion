@@ -233,10 +233,12 @@ footer {
     background-color: #1f2937;
     color: #ffffff;
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .infoFooter {
-    padding: 60px;
+    padding: 10px 80px;
 
 }
 
